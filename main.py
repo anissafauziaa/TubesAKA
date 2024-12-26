@@ -5,7 +5,7 @@ from prettytable import PrettyTable
 plt.ion() #digunakan untuk mengaktifkan mode interaktif matplotlib
 
 class Barang:
-    def _init_(item, nama, harga):
+    def __init__(item, nama, harga):
         item.nama = nama
         item.harga = harga
 
